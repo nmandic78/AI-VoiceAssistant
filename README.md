@@ -35,7 +35,7 @@ It is specialized for shell commands and coding. It gathers system info (OS, she
    - Download the required LLM model from HuggingFace in GGUF format and place it in any directory. I recommend some of Qwen2.5-Coder-Instruct models (https://huggingface.co/bartowski?search_models=Qwen2.5-Coder).
    - Start the Llama.cpp server:
      ```bash
-     ./server --model /path/to/your/model
+     ./llama-server --model /path/to/your/model
      ```
    - If possible use FlashAttention2 parameter (e.g. ./llama-server -m '/mnt/disk2/LLM_MODELS/models/Qwen2.5-Coder-14B-Instruct-Q8_0.gguf' -fa -ngl 99 ) for faster inference (see instructions in llama.cpp repo)
 
