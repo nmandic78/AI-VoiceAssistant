@@ -2,7 +2,7 @@
 # AI VoiceAssistant
 
 AI VoiceAssistant is a Python-based voice assistant that combines speech-to-text (STT), text-to-speech (TTS), and either a locally hosted large language model (LLM) powered by [llama.cpp](https://github.com/ggerganov/llama.cpp) or the OpenAI API. It provides a simple way to interact with AI through voice commands, leveraging clipboard context and hotkeys for smooth operation. 
-It is specialized for shell commands and coding. It gathers system info (OS, shell, GPU, python version, home dir, etc.) to provide correct commands for environment it runs.
+It is specialized for shell commands and coding. It gathers system info (OS, shell, GPU, python version, home dir, etc.) to provide correct commands for environment it runs in.
 
 ## Features
 - **Speech-to-Text (STT):** Converts spoken commands into text using a hotkey.
