@@ -37,7 +37,7 @@ It is specialized for shell commands and coding. It gathers system info (OS, she
      ```bash
      ./server --model /path/to/your/model
      ```
-   - If possible use FlashAttention2 parameter for faster inference (see instructions in llama.cpp repo)
+   - If possible use FlashAttention2 parameter (e.g. ./llama-server -m '/mnt/disk2/LLM_MODELS/models/Qwen2.5-Coder-14B-Instruct-Q8_0.gguf' -fa -ngl 99 ) for faster inference (see instructions in llama.cpp repo)
 
 4. **Option 2: Use OpenAI API:**
    - Obtain an OpenAI API key from [OpenAI](https://openai.com).
