@@ -69,7 +69,15 @@ It is specialized for shell commands and coding. It gathers system info (OS, she
     - "Buffer. Optimize this code."
     - "Buffer. Refactor the code to improve readability."
 
-## Demo video
+Transcription floating window:
+![image](https://github.com/user-attachments/assets/b5caab28-6ec6-459a-9b47-861a653e69d7)
+
+Enable/disable memory:
+
+![Screenshot from 2024-11-30 16-30-47](https://github.com/user-attachments/assets/2754af6d-0626-49d3-ae48-a0778607186c)
+
+
+## Demo
 
 Short demonstration recorded in real time: https://youtu.be/UB_ZXU_a0xY
 
