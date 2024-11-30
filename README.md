@@ -79,7 +79,7 @@ Enable/disable memory:
 
 ## Demo
 
-Short demonstration recorded in real time: [https://youtu.be/UB_ZXU_a0xY](https://youtu.be/AKJdFTvhuJQ)
+Short demonstration recorded in real time (RTX3090): [https://youtu.be/UB_ZXU_a0xY](https://youtu.be/AKJdFTvhuJQ)
 
 ### Notes
 - Ensure the Llama.cpp server is running before starting the Python script if using the local LLM.
