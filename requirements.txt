@@ -1,0 +1,10 @@
+faster_whisper
+GPUtil
+numpy
+openai
+PyAudio
+pynput
+pyperclip
+PyQt6
+PyQt6_sip
+torch
