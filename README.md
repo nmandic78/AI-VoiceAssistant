@@ -15,7 +15,7 @@ It is specialized for shell commands and coding. It gathers system info (OS, she
   - Execute the transcribed command: `CMD` / `WinKey` / `Super` + `Control`
   - Cancel command execution: Speak the word `Cancel`.
 - **Code Interaction:** Refactor or optimize code by including clipboard content in commands when the word "buffer" is spoken.
-- **Memory:** Option to enable or dissable LLM memory via try icon menu. Useful when subsequent commands are needed with reference to command-response history.
+- **Memory:** Option to enable or disable LLM memory via try icon menu. Useful when subsequent commands are needed with reference to command-response history.
 
 ## Installation
 
