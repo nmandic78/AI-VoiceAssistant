@@ -161,6 +161,11 @@ def hotkey_listener(comm):
             '<win>+<shift>': lambda: on_activate_start(comm),
             '<win>+<ctrl>': lambda: on_activate_stop(comm)
         }
+    elif os_name == "Darwin":  # macOS
+        hotkeys = {
+            '<cmd>+<shift>': lambda: on_activate_start(comm),
+            '<cmd>+<ctrl>': lambda: on_activate_stop(comm)
+        }        
     else:
         print(f"[ERROR] Unsupported OS: {os_name}")
         return
