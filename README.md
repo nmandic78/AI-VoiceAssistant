@@ -84,6 +84,7 @@ Short demonstration recorded in real time (RTX3090): [https://youtu.be/UB_ZXU_a0
 ### Notes
 - Ensure the Llama.cpp server is running before starting the Python script if using the local LLM.
 - If using OpenAI API, ensure the API key is correctly set.
+- I wrote an article about this in more detail for ['Agentic AI Innovation Challenge 2025'](https://app.readytensor.ai/publications/ai-voice-assistant-enhancing-developer-productivity-Re3GeanS9gcB)
 
 ## To-Do
 - Add an option to pass the OpenAI API key as an argument or environment variable for improved security and ease of use.
