@@ -1,0 +1,32 @@
+version: 2
+updates:
+  # Python deps (requirements.txt / Pipenv / Poetry / setup.cfg / pyproject.toml)
+  - package-ecosystem: "pip"
+    directory: "/"            # change/add more paths if you keep manifests elsewhere
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+      time: "06:00"
+      timezone: "Europe/Zagreb"
+    open-pull-requests-limit: 10
+    allow:
+      - dependency-type: "all"   # prod + dev deps
+    groups:
+      python-all:
+        patterns:
+          - "*"                  # group all Python updates into a single PR
+
+  # GitHub Actions workflow updates (e.g., actions/checkout, setup-python, CodeQL)
+  - package-ecosystem: "github-actions"
+    directory: "/"            # workflows live in .github/workflows but set "/" here
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+      time: "06:30"
+      timezone: "Europe/Zagreb"
+    open-pull-requests-limit: 5
+    groups:
+      gha-minor-patches:
+        update-types:
+          - "minor"
+          - "patch"
