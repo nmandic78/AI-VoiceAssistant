@@ -59,7 +59,7 @@ jobs:
 
     # ⬇️ Pin a CodeQL-friendly Python (avoid 3.14)
     - name: Setup Python
-      uses: actions/setup-python@v6
+      uses: actions/setup-python@v7
       with:
         python-version: '3.11'
     # Add any setup steps before running the `github/codeql-action/init` action.
